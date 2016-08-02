@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="54dp"
+        android:text="받침연습"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="자음(초성) 모음(중성), 그리고 또 다른 자음(종성)을 순서대로 발음 하면 받침이 있는 소리를 말할 수 있어요!"
+        android:id="@+id/textView" />
+    <ListView
+        android:id="@+id/finalconsonantlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity = "center_vertical">
+    </ListView>
+</LinearLayout>
